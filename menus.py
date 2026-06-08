@@ -4,7 +4,7 @@ def menu_principal():
     return RKM(
         [
             ["📚 Conteúdo para estudo"],
-            ["📖 Livros"],
+            ["📖 Recursos Extras"],
             ["Sugestões"]
         ],
         resize_keyboard=True
@@ -13,8 +13,8 @@ def menu_principal():
 def menu_estudo():
     return RKM(
         [
-            ["Computação em Nuvem"],
-            ["Programação"],
+            ["Lógica de Programação"],
+            ["SQL"],
             ["Estatística"],
             ["Banco de Dados"],
             ["⬅️ Voltar"]
@@ -22,12 +22,24 @@ def menu_estudo():
         resize_keyboard=True
     )
 
-def menu_livros():
+def menu_recursos():
     return RKM(
         [
-            ["PDFs"],
-            ["Links"],
+            ["📄 PDFs"],
+            ["🌐 Sites Úteis"],
+            ["🛠️ Ferramentas"],
             ["⬅️ Voltar"]
         ],
         resize_keyboard=True
     )
+
+def menu_materia():
+    return RKM(
+        [
+            ["📹 Videoaulas"],
+            ["📝 Exercícios"],
+            ["⬅️ Voltar"]
+        ],
+        resize_keyboard=True
+    )
+
