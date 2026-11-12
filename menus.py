@@ -33,11 +33,13 @@ def menu_recursos():
         resize_keyboard=True
     )
 
+
 def menu_materia():
     return RKM(
         [
             ["📹 Videoaulas"],
             ["📝 Exercícios"],
+            ["📚 Materiais Complementares"],
             ["⬅️ Voltar"]
         ],
         resize_keyboard=True
